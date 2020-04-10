@@ -1,0 +1,11 @@
+SELECT season,  Max(nickhomelong) AS Nick, nickhome AS Nick9
+FROM datacyber
+WHERE (((season)=' Киберфутбол. ФИФА. eSports Battle. Europa League') AND str_to_date(left(dates,8), '%d.%m.%Y') between cast('2020-04-06' as date) and cast('2020-04-06' as date))
+GROUP BY season, nickhome
+
+UNION
+
+SELECT season,  Max(nickawaylong) AS Nick, nickaway AS Nick9
+FROM datacyber
+WHERE (((season)=' Киберфутбол. ФИФА. eSports Battle. Europa League') AND str_to_date(left(dates,8), '%d.%m.%Y') between cast('2020-04-06' as date) and cast('2020-04-06' as date))
+GROUP BY season, nickaway

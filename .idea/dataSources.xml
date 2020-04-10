@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="cyberfootball" uuid="756d0dd8-1279-44e1-98a4-667920a4ce2b">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql:///cyberfootball?useUnicode=true&amp;serverTimezone=UTC&amp;useSSL=true&amp;verifyServerCertificate=false</jdbc-url>
+    </data-source>
+  </component>
+</project>
